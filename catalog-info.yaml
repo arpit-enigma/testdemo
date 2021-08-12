@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testdemo
+  description: No default description found. This is a CBRE Software Component, please\
+    \ contact Dev team at given contact information.
+  tags:
+  - java
+  devxstate: under-review
+  rating:
+  - user: some-user
+    value: 5
+  comments:
+  - reviewer:
+      user: some-user
+      date: 08-12-2021
+      comments: sample-comment
+    publisher:
+      user: some-user
+      date: 08-12-2021
+      comments: sample-comment
+spec:
+  type: Service
+  lifecycle: Production
+  owner: CBRE-Shared-Code
