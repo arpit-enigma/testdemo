@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: CBRE-Shared-Code
+spec:
+  profile:
+    displayName: CBRE-Shared-Code
+    email: arpit.saxena@cbre.com
+    memberOf: arpit.saxena@cbre.com
+    picture: https://en.wikipedia.org/wiki/GitHub#/media/File:GitHub_logo_2013.svg
