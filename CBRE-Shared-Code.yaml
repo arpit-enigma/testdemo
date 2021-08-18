@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: CBRE-Shared-Code
+spec:
+  profile:
+    displayName: CBRE-Shared-Code
+    email: cbre-devx-team
+    picture: https://en.wikipedia.org/wiki/GitHub#/media/File:GitHub_logo_2013.svg
+  memberOf:
+  - cbre-devx-team
